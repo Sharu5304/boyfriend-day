@@ -153,56 +153,56 @@ function openGift() {
 const memories = [
 
     {
-        image: "images/photo1.jpeg",
+        image: "photo1.jpeg",
         title: "One of my favourite memories ❤️",
         text:
             "A little moment that I would happily experience again. 🥹"
     },
 
     {
-        image: "images/photo2.jpeg",
+        image: "photo2.jpeg",
         title: "Look at us 🥹💕",
         text:
             "This picture will always have a special place in my heart."
     },
 
     {
-        image: "images/photo3.jpeg",
+        image: "photo3.jpeg",
         title: "This one makes me smile 🌸",
         text:
             "Because somehow even the simplest moments become special with you."
     },
 
     {
-        image: "images/photo4.jpeg",
+        image: "photo4.jpeg",
         title: "My favourite person 🫶",
         text:
             "My Baal, my Duggu, my Raja. ❤️"
     },
 
     {
-        image: "images/photo5.jpeg",
+        image: "photo5.jpeg",
         title: "Just us ❤️",
         text:
             "One more memory that I never want to forget."
     },
 
     {
-        image: "images/photo6.jpeg",
+        image: "photo6.jpeg",
         title: "A memory I'll keep forever 🥹",
         text:
             "Some moments are impossible to replace."
     },
 
     {
-        image: "images/photo7.jpeg",
+        image: "photo7.jpeg",
         title: "My Baal 💗",
         text:
             "Six months of memories... and hopefully many more to come."
     },
 
     {
-        image: "images/photo8.jpeg",
+        image: "photo8.jpeg",
         title: "More memories to come ✨",
         text:
             "This isn't the end of our memories. It's only the beginning. ❤️"
