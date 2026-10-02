@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>For My Raja ❤️</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+
+<!-- =====================================
+     OPENING ENVELOPE
+====================================== -->
+
+<div id="envelopeScreen">
+
+    <div class="opening-content">
+
+        <p class="opening-date">
+            🌸 3 OCTOBER 🌸
+        </p>
+
+        <p class="opening-small">
+            A little surprise for...
+        </p>
+
+
+        <h1 class="for-raja">
+            My Raja ❤️
+        </h1>
+
+
+        <!-- Envelope -->
+
+        <div class="envelope-wrapper"
+             onclick="openEnvelope()">
+
+            <div class="envelope">
+
+                <div class="envelope-back"></div>
+
+                <div class="envelope-paper">
+
+                    <span>
+                        For My Raja 💌
+                    </span>
+
+                </div>
+
+                <div class="envelope-front"></div>
+
+                <div class="envelope-flap"></div>
+
+                <div class="heart-seal">
+                    ❤️
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <p class="tap-message">
+            Tap the envelope to open 💗
+        </p>
+
+
+        <p class="secret-message">
+            Something from your Gudya... 🥹
+        </p>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================
+     FLOATING HEARTS
+====================================== -->
+
+<div id="hearts"></div>
+
+
+
+<!-- =====================================
+     PAGE 1
+====================================== -->
+
+<section class="page active"
+         id="page1">
+
+    <div class="card">
+
+        <div class="small-date">
+            🌸 3 OCTOBER 🌸
+        </div>
+
+        <div class="big-heart">
+            ❤️
+        </div>
+
+        <h1>
+            Happy Boyfriend's Day
+        </h1>
+
+        <h2>
+            My Baal 🥹💕
+        </h2>
+
+        <p>
+            Someone has secretly made
+            something especially for you...
+        </p>
+
+        <p class="promise">
+            But first...
+            promise you'll smile? 🥺
+        </p>
+
+        <button onclick="nextPage()">
+            YES, I PROMISE ❤️
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     PAGE 2
+====================================== -->
+
+<section class="page"
+         id="page2">
+
+    <div class="card">
+
+        <div class="emoji-big">
+            👀💕
+        </div>
+
+        <h1>
+            Hi Pranay...
+        </h1>
+
+        <p>
+            You probably thought you were
+            just scanning a random QR code...
+        </p>
+
+        <h2>
+            Nope. 😌
+        </h2>
+
+        <p>
+            Your Gudya made this little
+            surprise just for you. 💗
+        </p>
+
+        <p>
+            And today is your day...
+        </p>
+
+        <div class="occasion">
+            🌸 HAPPY BOYFRIEND'S DAY 🌸
+        </div>
+
+        <button onclick="nextPage()">
+            Continue 💕
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     PAGE 3 - SIX MONTHS
+====================================== -->
+
+<section class="page"
+         id="page3">
+
+    <div class="card">
+
+        <div class="emoji-big">
+            🥹❤️
+        </div>
+
+        <h1>
+            6 Months of Us
+        </h1>
+
+        <div class="six-months">
+
+            <span>
+                6
+            </span>
+
+            <small>
+                months
+            </small>
+
+        </div>
+
+        <p>
+            Six months of laughs...
+        </p>
+
+        <p>
+            Six months of conversations...
+        </p>
+
+        <p>
+            Six months of silly moments...
+        </p>
+
+        <p>
+            And six months of having
+            <strong>
+                my favourite person
+            </strong>
+            in my life. ❤️
+        </p>
+
+        <button onclick="nextPage()">
+            Our Memories 📸
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     PAGE 4 - PHOTO SLIDESHOW
+====================================== -->
+
+<section class="page"
+         id="page4">
+
+    <div class="memory-slideshow">
+
+
+        <div class="memory-heading">
+
+            <div class="tiny-heart">
+                ♡
+            </div>
+
+            <h1>
+                Our Little Memories
+            </h1>
+
+            <p>
+                8 little moments
+                that mean a lot to me ❤️
+            </p>
+
+        </div>
+
+
+
+        <!-- PHOTO -->
+
+        <div class="photo-viewer">
+
+            <img
+                id="memoryImage"
+                src="images/photo1.jpeg"
+                alt="Our memory"
+            >
+
+            <div class="photo-number">
+
+                <span id="photoNumber">
+                    1
+                </span>
+
+                / 8
+
+            </div>
+
+        </div>
+
+
+
+        <!-- CAPTION -->
+
+        <div class="memory-caption">
+
+            <h2 id="memoryTitle">
+                One of my favourite memories ❤️
+            </h2>
+
+            <p id="memoryText">
+                A little moment that I would
+                happily experience again. 🥹
+            </p>
+
+        </div>
+
+
+
+        <!-- CONTROLS -->
+
+        <div class="slide-controls">
+
+            <button
+                class="slide-button"
+                onclick="previousPhoto()">
+
+                ←
+
+            </button>
+
+
+            <div class="dots">
+
+                <span class="dot active-dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+
+            </div>
+
+
+            <button
+                class="slide-button"
+                onclick="nextPhoto()">
+
+                →
+
+            </button>
+
+        </div>
+
+
+
+        <button
+            class="continue-memory"
+            onclick="nextPage()">
+
+            I have something to tell you 💌
+
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     PAGE 5 - LOVE LETTER
+====================================== -->
+
+<section class="page"
+         id="page5">
+
+    <div class="letter-card">
+
+        <div class="envelope-icon">
+            💌
+        </div>
+
+        <h1>
+            A Letter For You
+        </h1>
+
+
+        <div id="letter">
+
+            <p>
+                My Baal, my Duggu, my Raja... ❤️
+            </p>
+
+            <p>
+                I don't know if I say it enough,
+                but having you in my life has made
+                so many ordinary days feel special.
+            </p>
+
+            <p>
+                Thank you for all the laughs,
+                conversations, silly moments,
+                caring moments and everything
+                in between.
+            </p>
+
+            <p>
+                Thank you for being someone I can
+                laugh with, annoy, talk to,
+                miss and love. 😂💕
+            </p>
+
+            <p>
+                Six months may just be a number,
+                but the memories we've made
+                mean so much to me.
+            </p>
+
+            <p>
+                And if I had to choose again...
+            </p>
+
+            <h2>
+                I'd still choose you. ❤️
+            </h2>
+
+            <p>
+                Happy Boyfriend's Day, Pranay.
+            </p>
+
+            <p>
+                With lots and lots of love,
+            </p>
+
+            <h2>
+                Your Gudya 🌸💕
+            </h2>
+
+        </div>
+
+
+        <button onclick="nextPage()">
+            Our Song 🎵
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     PAGE 6 - SONG
+====================================== -->
+
+<section class="page"
+         id="page6">
+
+    <div class="card">
+
+        <div class="music-icon">
+            🎵
+        </div>
+
+        <h1>
+            Our Song
+        </h1>
+
+        <h2>
+            Tum Ho Toh ❤️
+        </h2>
+
+        <p>
+            Some songs just feel different
+            when they remind you of someone.
+        </p>
+
+
+        <div class="music-player">
+
+            <div class="vinyl">
+                💿
+            </div>
+
+            <p>
+                This one reminds me of you. 🥹
+            </p>
+
+
+            <audio controls>
+
+                <source
+                    src="music/our-song.mp3"
+                    type="audio/mpeg">
+
+                Your browser does not support
+                the audio player.
+
+            </audio>
+
+        </div>
+
+
+        <button onclick="nextPage()">
+            One Last Surprise 🎁
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     PAGE 7 - GIFT
+====================================== -->
+
+<section class="page"
+         id="page7">
+
+    <div class="card">
+
+        <div class="gift"
+             onclick="openGift()">
+
+            🎁
+
+        </div>
+
+        <h1>
+            One Last Surprise...
+        </h1>
+
+        <p>
+            I saved the most important part
+            for the end. 🥹
+        </p>
+
+        <p>
+            Tap the gift. 🎁
+        </p>
+
+        <button onclick="openGift()">
+            OPEN IT ❤️
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     PAGE 8 - FINAL
+====================================== -->
+
+<section class="page"
+         id="page8">
+
+    <div class="final-card">
+
+        <div class="confetti">
+            💗 💕 ❤️ 💖 💕 ❤️ 💗
+        </div>
+
+        <h1>
+            Happy Boyfriend's Day
+        </h1>
+
+        <h2>
+            Pranay ❤️
+        </h2>
+
+        <div class="names">
+            My Baal • My Duggu • My Raja
+        </div>
+
+        <p>
+            Today is your day...
+        </p>
+
+        <p>
+            But honestly,
+            I feel like I'm the lucky one. 🥹
+        </p>
+
+        <p>
+            Thank you for being you.
+            Thank you for every laugh,
+            every conversation,
+            every silly moment,
+            and every memory.
+        </p>
+
+        <p>
+            Six months down...
+        </p>
+
+        <h2>
+            And hopefully many, many
+            more memories to go. ❤️
+        </h2>
+
+        <div class="final-heart">
+            ❤️
+        </div>
+
+        <h2>
+            I love you.
+        </h2>
+
+        <p class="signature">
+            — Your Gudya 🌸
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
